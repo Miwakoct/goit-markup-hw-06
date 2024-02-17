@@ -181,6 +181,11 @@ img {
 }
 
 @media screen and (min-width: 1158px) {
+  .header-container {
+    padding-right: 156px;
+    padding-left: 156px;
+  }
+
   .logo {
     margin-right: 76px;
   }
@@ -221,7 +226,6 @@ img {
   font-weight: 700;
   line-height: 1.12;
   letter-spacing: 0.02em;
-
   margin-bottom: 72px;
   max-width: 288px;
   max-height: 160px;
@@ -241,12 +245,48 @@ img {
   border: none;
   border-radius: 4px;
   margin: 0 auto;
+  margin-bottom: 72px;
+  padding: 0;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .section-hero-btn:focus {
   background-color: #404bbf;
 }
+
+@media screen and (min-width: 768px) {
+  .section-hero {
+    max-width: 768px;
+    padding-top: 112px;
+    padding-bottom: 112px;
+    max-width: 768px;
+    margin: 0 auto;
+  }
+
+  .section-hero-title {
+    font-size: 56px;
+    line-height: 1.07;
+    margin: 0 auto;
+    margin-bottom: 48px;
+    max-width: 496px;
+    max-height: 436px;
+  }
+
+  .section-hero-btn {
+    margin: 0 auto;
+  }
+}
+
+@media screen and (min-width: 1158px) {
+  .section-hero {
+    max-width: 1158px;
+    padding-top: 188px;
+    padding-bottom: 188px;
+    max-width: 1158px;
+    margin: 0 auto;
+  }
+}
+
 /* ========================================= */
 
 /* ========Section Goals (hiden)==== */
