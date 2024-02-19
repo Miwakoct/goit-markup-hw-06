@@ -542,7 +542,7 @@ img {
   }
 
   .section-team-item {
-    width: calc((100% - 24px) / 4);
+    width: calc((100% - 72px) / 4);
   }
 }
 
