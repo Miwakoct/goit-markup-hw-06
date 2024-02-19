@@ -182,8 +182,6 @@ img {
 
 @media screen and (min-width: 1158px) {
   .header-container {
-    padding-right: 156px;
-    padding-left: 156px;
   }
 
   .logo {
@@ -507,8 +505,6 @@ img {
     max-width: 1158px;
     padding-top: 120px;
     padding-bottom: 120px;
-    padding-left: 156px;
-    padding-right: 156px;
   }
 
   .section-goals-subtitle {
@@ -720,8 +716,6 @@ img {
   .portfolio-container {
     padding-top: 120px;
     padding-bottom: 120px;
-    padding-left: 156px;
-    padding-right: 156px;
   }
 
   .portfolio-item {
@@ -798,7 +792,7 @@ img {
 
 .footer-logo-text {
   /* margin-right: 120px; */
-  margin: 0 auto;
+  /* margin: 0 auto; */
   margin-bottom: 72px;
 }
 
@@ -930,7 +924,42 @@ img {
 .footer-btn-icon {
   margin-left: 16px;
 }
+@media screen and (min-width: 1158px) {
+  .footer {
+    padding: 100px 0;
+  }
+  .footer-container {
+    display: flex;
+    align-items: baseline;
+    justify-content: center;
+    text-align: left;
+  }
+  .footer-logo-text {
+    margin-right: 120px;
+  }
 
+  .footer-form-form {
+    margin-left: 80px;
+  }
+  .footer-form-text {
+    width: 100%;
+    text-align: start;
+    margin: 0 auto;
+    padding-bottom: 16px;
+  }
+  .footer-icons-list {
+    display: flex;
+    gap: 16px;
+  }
+  .footer-form-form {
+    margin-left: 80px;
+  }
+
+  .footer-form {
+    flex-direction: row;
+    gap: 24px;
+  }
+}
 /* ========================================= */
 
 /* =================BACKDROP FORM================= */
