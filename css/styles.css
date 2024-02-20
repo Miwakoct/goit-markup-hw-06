@@ -946,6 +946,17 @@ img {
   }
   .footer-logo-text {
     margin-right: 24px;
+    margin-bottom: 0;
+  }
+  .footer-form-text {
+    text-align: left;
+    margin-bottom: 16px;
+  }
+  .footer-form {
+    flex-direction: row;
+  }
+  .footer-input {
+    width: 264px;
   }
 }
 
@@ -955,6 +966,7 @@ img {
   }
   .footer-container {
     display: flex;
+    flex-direction: row;
     align-items: baseline;
     justify-content: center;
     text-align: left;
