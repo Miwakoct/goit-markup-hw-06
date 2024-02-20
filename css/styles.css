@@ -332,6 +332,7 @@ img {
       rgba(46, 47, 66, 0.7)
     ),
     url(../images/background-hero.jpg);
+  width: 100%;
   max-width: 320px;
   background-repeat: no-repeat;
   background-position: center;
@@ -367,7 +368,7 @@ img {
   border: none;
   border-radius: 4px;
   margin: 0 auto;
-  margin-bottom: 72px;
+
   padding: 0;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
