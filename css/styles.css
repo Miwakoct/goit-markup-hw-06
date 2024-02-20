@@ -36,7 +36,7 @@ button {
 .container {
   max-width: 320px;
   padding: 0 16px;
-  margin: 0 auto;
+  /* margin: 0 auto; */
 }
 @media screen and (min-width: 768px) {
   .container {
@@ -333,13 +333,13 @@ img {
     ),
     url(../images/background-hero.jpg);
   width: 100%;
-  max-width: 320px;
+  /* max-width: 320px; */
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
   padding-top: 72px;
   padding-bottom: 72px;
-  max-width: 320px;
+  /* max-width: 320px; */
 }
 
 .section-hero-title {
@@ -532,17 +532,19 @@ img {
 /* ============Section Our team============= */
 
 .section-team {
-  max-width: 320px;
-  padding: 0;
-  margin: 0 auto;
+  /* max-width: 320px; */
+  width: 100%;
+  /* padding: 0; */
+  padding: 96px 0;
+  /* margin: 0 auto; */
   background-color: #f4f4fd;
 }
 
 .team-container {
   /* padding-right: 24px;
   padding-left: 24px; */
-  padding-top: 96px;
-  padding-bottom: 96px;
+  /* padding-top: 96px;
+  padding-bottom: 96px; */
 }
 
 .section-team-title {
@@ -627,7 +629,7 @@ img {
 @media screen and (min-width: 768px) {
   .section-team {
     max-width: 768px;
-    padding: 0;
+    padding: 96px 0;
   }
   .team-container {
     padding-left: 108px;
