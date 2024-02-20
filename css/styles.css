@@ -806,6 +806,7 @@ img {
   line-height: 1.5;
   letter-spacing: 0.02em;
   max-width: 264px;
+  text-align: start;
 }
 
 .logo-footer {
@@ -887,7 +888,8 @@ img {
   gap: 24px;
 }
 .footer-input {
-  width: 264px;
+  /* width: 264px; */
+  width: 100%;
   height: 40px;
   border: 1px solid #ffffff;
   background-color: transparent;
@@ -898,6 +900,7 @@ img {
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
   color: #ffffff;
+  opacity: 0.3;
 }
 
 .footer-input::placeholder {
@@ -905,6 +908,7 @@ img {
 }
 .footer-form-btn {
   min-width: 165px;
+
   height: 40px;
   display: flex;
   justify-content: center;
@@ -919,6 +923,7 @@ img {
   background-color: #4d5ae5;
   border: none;
   border-radius: 4px;
+  margin: 0 auto;
 }
 
 .footer-btn-icon {
@@ -958,6 +963,10 @@ img {
   .footer-form {
     flex-direction: row;
     gap: 24px;
+  }
+  .footer-input {
+    width: 264px;
+    opacity: 50;
   }
 }
 /* ========================================= */
