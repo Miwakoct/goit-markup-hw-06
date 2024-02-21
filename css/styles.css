@@ -335,6 +335,18 @@ img {
   padding-bottom: 72px;
 }
 
+@media screen and (min-device-pixel-ratio: 2),
+  (min-resolution: 192dpi),
+  (min-resolution: 2dppx) {
+  .section-hero {
+    background-image: linear-gradient(
+        rgba(46, 47, 66, 0.7),
+        rgba(46, 47, 66, 0.7)
+      ),
+      url(../images/bg-hero-mob-2x.jpg);
+  }
+}
+
 .section-hero-title {
   color: #fff;
   text-align: center;
@@ -384,6 +396,18 @@ img {
     margin: 0 auto;
   }
 
+  @media screen and (min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+    .section-hero {
+      background-image: linear-gradient(
+          rgba(46, 47, 66, 0.7),
+          rgba(46, 47, 66, 0.7)
+        ),
+        url(../images/bg-hero-tab-2x.jpg);
+    }
+  }
+
   .section-hero-title {
     font-size: 56px;
     line-height: 1.07;
@@ -411,8 +435,18 @@ img {
     max-width: 1158px;
     margin: 0 auto;
   }
+  @media screen and (min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+    .section-hero {
+      background-image: linear-gradient(
+          rgba(46, 47, 66, 0.7),
+          rgba(46, 47, 66, 0.7)
+        ),
+        url(../images/bg-hero-desk-2x.jpg);
+    }
+  }
 }
-
 /* ========================================= */
 
 /* ========Section Goals (hiden)==== */
