@@ -484,7 +484,6 @@ img {
 .section-goals {
   max-width: 320px;
   padding: 96px 0;
-  margin: 0 auto;
 }
 
 .goals-container {
@@ -554,10 +553,12 @@ img {
   .section-goals {
     max-width: 1158px;
     padding: 120px 0;
+    margin: 0 auto;
   }
 
   .goals-container {
     max-width: 1158px;
+    margin: 0 auto;
   }
 
   .section-goals-subtitle {
