@@ -331,6 +331,7 @@ img {
 /* ===============HERO===================== */
 
 .section-hero {
+  max-width: 100%;
   background-color: #2e2f42;
   background-image: linear-gradient(
       rgba(46, 47, 66, 0.7),
@@ -445,6 +446,12 @@ img {
     max-width: 1158px;
     margin: 0 auto;
   }
+
+  .section-hero {
+    /* padding-top: 0;
+    padding-bottom: 0; */
+  }
+
   @media screen and (min-device-pixel-ratio: 2),
     (min-resolution: 192dpi),
     (min-resolution: 2dppx) {
@@ -990,16 +997,22 @@ img {
   .footer-logo-text {
     margin-right: 24px;
     margin-bottom: 0;
+
+    padding-bottom: 0;
   }
   .footer-form-text {
     text-align: left;
     margin-bottom: 16px;
+    margin-top: 0;
   }
   .footer-form {
     flex-direction: row;
   }
   .footer-input {
     width: 264px;
+  }
+  .footer-icons-list {
+    margin-bottom: 0;
   }
 }
 
