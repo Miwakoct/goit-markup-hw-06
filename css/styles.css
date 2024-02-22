@@ -36,6 +36,7 @@ button {
 .container {
   max-width: 320px;
   padding: 0 16px;
+  margin: 0 auto;
 }
 
 @media screen and (min-width: 768px) {
@@ -203,9 +204,9 @@ img {
   top: 0;
   left: 0;
   background-color: #fff;
-  /* opacity: 0;
+  opacity: 0;
   pointer-events: none;
-  visibility: hidden; */
+  visibility: hidden;
 }
 
 .mob-menu-close-btn {
@@ -474,13 +475,13 @@ img {
 
 .section-goals {
   max-width: 320px;
-  padding: 0;
+  padding: 96px 0;
   margin: 0 auto;
 }
 
 .goals-container {
-  padding-top: 96px;
-  padding-bottom: 96px;
+  /* padding-top: 96px;
+  padding-bottom: 96px; */
 }
 
 .section-goals-subtitle {
@@ -524,7 +525,7 @@ img {
 @media screen and (min-width: 768px) {
   .section-goals {
     max-width: 768px;
-    padding: 0;
+    padding: 96px 0;
   }
   .goals-container {
     max-width: 768px;
@@ -544,13 +545,11 @@ img {
 @media screen and (min-width: 1158px) {
   .section-goals {
     max-width: 1158px;
-    padding: 0;
+    padding: 120px 0;
   }
 
   .goals-container {
     max-width: 1158px;
-    padding-top: 120px;
-    padding-bottom: 120px;
   }
 
   .section-goals-subtitle {
@@ -671,6 +670,7 @@ img {
   .section-team {
     max-width: 768px;
     padding: 96px 0;
+    margin: 0 auto;
   }
   .team-container {
     padding-left: 108px;
