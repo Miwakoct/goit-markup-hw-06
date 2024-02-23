@@ -447,11 +447,6 @@ img {
     margin: 0 auto;
   }
 
-  .section-hero {
-    /* padding-top: 0;
-    padding-bottom: 0; */
-  }
-
   @media screen and (min-device-pixel-ratio: 2),
     (min-resolution: 192dpi),
     (min-resolution: 2dppx) {
